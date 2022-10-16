@@ -26,7 +26,7 @@ import software.amazon.awssdk.services.personalizeruntime.model.PredictedItem;
 import java.util.List;
 
 @Controller
-@RequestMapping(path = "/rec-mgr")
+@RequestMapping(path = "/recommendation-mgr")
 public class RecController {
     @Autowired
     AppConfig appConfig;
