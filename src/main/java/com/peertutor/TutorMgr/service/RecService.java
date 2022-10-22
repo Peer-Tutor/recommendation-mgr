@@ -51,7 +51,12 @@ public class RecService {
             result = this.getTutorRecDummy();
         }
 
-        return tutorMapper.toDto(result).subList(0, Math.min(result.size(), 3));
+        System.out.println("result" + result);
+
+        List<TutorDTO> res = tutorMapper.toDto(result).subList(0, Math.min(result.size(), 3));
+        System.out.println("res" + res);
+
+        return res;
     }
 
     public List<Tutor> getTutorRecDummy() {

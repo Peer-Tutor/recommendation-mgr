@@ -93,11 +93,15 @@ public class Tutor {
         return Objects.equals(getId(), account.getId());
     }
 
-    @Override
-    public String toString() {
+    @java.lang.Override
+    public java.lang.String toString() {
         return "Tutor{" +
                 "id=" + id +
+                ", accountName='" + accountName + '\'' +
                 ", displayName='" + displayName + '\'' +
+                ", introduction='" + introduction + '\'' +
+                ", subjects='" + subjects + '\'' +
+                ", certificates='" + certificates + '\'' +
                 '}';
     }
 }
