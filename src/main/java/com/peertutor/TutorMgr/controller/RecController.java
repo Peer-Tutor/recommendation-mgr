@@ -39,7 +39,7 @@ public class RecController {
 
     @GetMapping(path = "/health")
     public @ResponseBody String healthCheck() {
-        return "Ok 2";
+        return "Ok 3";
     }
 
     @GetMapping(path = "/rec")
